@@ -1,0 +1,70 @@
+.coming-soon{
+    &-s1{
+        @include set-bg(nth($img__coming-soon--h,1));
+    }
+}
+
+.minh{
+    &-25vh{
+        min-height: 25vh;
+    }
+    &-50vh{
+        min-height: 50vh;
+    }
+    &-75vh{
+        min-height: 75vh;
+    }
+    &-100vh{
+        min-height: 100vh;
+    }
+}
+
+/*landscape*/
+@media all and (orientation: landscape) and (max-width:667px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--h,1));
+        }
+    }
+}
+
+@media all and (orientation: landscape) and (min-width:668px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--h,2));
+        }
+    }
+}
+
+@media all and (orientation: landscape) and (min-width:1367px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--h,3));
+        }
+    }
+}
+
+/*portait*/
+@media all and (orientation: portrait) and (max-height:667px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--v,1));
+        }
+    }
+}
+
+@media all and (orientation: portrait) and (min-height:668px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--v,2));
+        }
+    }
+}
+
+@media all and (orientation: portrait) and (min-height:1367px){
+    .coming-soon{
+        &-s1{
+            @include set-bg(nth($img__coming-soon--v,3));
+        }
+    }
+}

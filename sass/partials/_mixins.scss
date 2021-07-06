@@ -1,0 +1,4 @@
+@mixin set-bg($imgA){
+    background-image: url($imgA);
+    background-size: cover;
+}

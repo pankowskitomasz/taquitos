@@ -1,0 +1,67 @@
+/* line 2, ../sass/partials/_modules.scss */
+.coming-soon-s1 {
+  background-image: url("../img/bg/coming_soon_sm_h.jpg");
+  background-size: cover;
+}
+
+/* line 8, ../sass/partials/_modules.scss */
+.minh-25vh {
+  min-height: 25vh;
+}
+/* line 11, ../sass/partials/_modules.scss */
+.minh-50vh {
+  min-height: 50vh;
+}
+/* line 14, ../sass/partials/_modules.scss */
+.minh-75vh {
+  min-height: 75vh;
+}
+/* line 17, ../sass/partials/_modules.scss */
+.minh-100vh {
+  min-height: 100vh;
+}
+
+/*landscape*/
+@media all and (orientation: landscape) and (max-width: 667px) {
+  /* line 25, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_sm_h.jpg");
+    background-size: cover;
+  }
+}
+@media all and (orientation: landscape) and (min-width: 668px) {
+  /* line 33, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_lg_h.jpg");
+    background-size: cover;
+  }
+}
+@media all and (orientation: landscape) and (min-width: 1367px) {
+  /* line 41, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_xl_h.jpg");
+    background-size: cover;
+  }
+}
+/*portait*/
+@media all and (orientation: portrait) and (max-height: 667px) {
+  /* line 50, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_sm_v.jpg");
+    background-size: cover;
+  }
+}
+@media all and (orientation: portrait) and (min-height: 668px) {
+  /* line 58, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_lg_v.jpg");
+    background-size: cover;
+  }
+}
+@media all and (orientation: portrait) and (min-height: 1367px) {
+  /* line 66, ../sass/partials/_modules.scss */
+  .coming-soon-s1 {
+    background-image: url("../img/bg/coming_soon_xl_v.jpg");
+    background-size: cover;
+  }
+}
