@@ -1,3 +1,26 @@
+$color__black: #000;
+$color__orange: #fe8100;
+
+$img__about-s1--h:
+    "../img/bg_about/about_s1_sm_h.jpg",
+    "../img/bg_about/about_s1_lg_h.jpg",
+    "../img/bg_about/about_s1_xl_h.jpg";
+$img__about-s1--v: 
+    "../img/bg_about/about_s1_sm_v.jpg",
+    "../img/bg_about/about_s1_lg_v.jpg",
+    "../img/bg_about/about_s1_xl_v.jpg";
+
+$img__about-s2--h:
+    "../img/bg_about/about_s2_sm_h.jpg",
+    "../img/bg_about/about_s2_lg_h.jpg",
+    "../img/bg_about/about_s2_xl_h.jpg";
+$img__about-s2--v: 
+    "../img/bg_about/about_s2_sm_v.jpg",
+    "../img/bg_about/about_s2_lg_v.jpg",
+    "../img/bg_about/about_s2_xl_v.jpg";
+
+$img__basket-s1: "../img/basket.png";
+
 $img__coming-soon--h:
     "../img/bg/coming_soon_sm_h.jpg",
     "../img/bg/coming_soon_lg_h.jpg",
@@ -6,3 +29,34 @@ $img__coming-soon--v:
     "../img/bg/coming_soon_sm_v.jpg",
     "../img/bg/coming_soon_lg_v.jpg",
     "../img/bg/coming_soon_xl_v.jpg";
+
+$img__food-1:
+    "../img/food/food_1_sm.png",
+    "../img/food/food_1_lg.png",
+    "../img/food/food_1_xl.png";
+$img__food-2:
+    "../img/food/food_2_sm.png",
+    "../img/food/food_2_lg.png",
+    "../img/food/food_2_xl.png";
+$img__food-3:
+    "../img/food/food_3_sm.png",
+    "../img/food/food_3_lg.png",
+    "../img/food/food_3_xl.png";
+$img__food-4:
+    "../img/food/food_4_sm.png",
+    "../img/food/food_4_lg.png",
+    "../img/food/food_4_xl.png";
+$img__food-5:
+    "../img/food/food_5_sm.png",
+    "../img/food/food_5_lg.png",
+    "../img/food/food_5_xl.png";
+
+$img__index-s1--h: 
+    "../img/bg_index/index_sm_h.jpg",
+    "../img/bg_index/index_lg_h.jpg",
+    "../img/bg_index/index_xl_h.jpg";
+$img__index-s1--v: 
+    "../img/bg_index/index_sm_v.jpg",
+    "../img/bg_index/index_lg_v.jpg",
+    "../img/bg_index/index_xl_v.jpg";
+$text-shadow: 1px 1px 3px $color__black;
