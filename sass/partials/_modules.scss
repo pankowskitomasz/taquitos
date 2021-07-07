@@ -1,3 +1,25 @@
+.basket{
+    &-s1{
+        @include set-bg($img__basket-s1);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+}
+
+.bg{
+    &-orange{
+        background-color: $color__orange;
+    }
+}
+
+.border{
+    &-orange{
+        border-color: $color__orange !important;
+    }
+}
+
 .coming-soon{
     &-s1{
         @include set-bg(nth($img__coming-soon--h,1));
@@ -19,11 +41,77 @@
     }
 }
 
+.text{
+    &-orange{
+        color: $color__orange !important;
+    }
+    &-shadow{
+        text-shadow: $text-shadow;
+    }
+}
+
 /*landscape*/
+@media all and (orientation: landscape){
+    .text{
+        &-landscape{
+            &-end{
+                text-align: right !important;
+            }
+        }
+    }
+}
+
 @media all and (orientation: landscape) and (max-width:667px){
     .coming-soon{
         &-s1{
             @include set-bg(nth($img__coming-soon--h,1));
+        }
+    }
+    .about{
+        &-s1{
+            @include set-bg(nth($img__about-s1--h,1));
+            background-position: right bottom;
+        }
+        &-s2{
+            @include set-bg(nth($img__about-s2--h,1));
+            background-position: left top;
+        }
+    }
+    .food{
+        &-1{
+            @include set-bg(nth($img__food-1,1));
+            background-position: center;    
+            background-repeat: no-repeat;
+            background-size: contain;        
+        }
+        &-2{
+            @include set-bg(nth($img__food-2,1));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-3{
+            @include set-bg(nth($img__food-3,1));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-4{
+            @include set-bg(nth($img__food-4,1));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-5{
+            @include set-bg(nth($img__food-5,1));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+    .index{
+        &-s1{
+            @include set-bg(nth($img__index-s1--h,1));
         }
     }
 }
@@ -34,6 +122,54 @@
             @include set-bg(nth($img__coming-soon--h,2));
         }
     }
+    .about{
+        &-s1{
+            @include set-bg(nth($img__about-s1--h,2));
+            background-position: right bottom;
+        }
+        &-s2{
+            @include set-bg(nth($img__about-s2--h,2));
+            background-position: left top;
+        }
+    }
+    .food{
+        &-1{
+            @include set-bg(nth($img__food-1,2));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-2{
+            @include set-bg(nth($img__food-2,2));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-3{
+            @include set-bg(nth($img__food-3,2));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-4{
+            @include set-bg(nth($img__food-4,2));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-5{
+            @include set-bg(nth($img__food-5,2));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+    .index{
+        &-s1{
+            @include set-bg(nth($img__index-s1--h,2));
+            background-position: left bottom;
+        }
+    }
 }
 
 @media all and (orientation: landscape) and (min-width:1367px){
@@ -42,13 +178,112 @@
             @include set-bg(nth($img__coming-soon--h,3));
         }
     }
+    .about{
+        &-s1{
+            @include set-bg(nth($img__about-s1--h,3));
+            background-position: right bottom;
+        }
+        &-s2{
+            @include set-bg(nth($img__about-s2--h,3));
+            background-position: left top;
+        }
+    }
+    .food{
+        &-1{
+            @include set-bg(nth($img__food-1,3));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-2{
+            @include set-bg(nth($img__food-2,3));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-3{
+            @include set-bg(nth($img__food-3,3));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-4{
+            @include set-bg(nth($img__food-4,3));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-5{
+            @include set-bg(nth($img__food-5,3));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
 }
 
 /*portait*/
+@media all and (orientation: portrait){
+    .text{
+        &-portrait{
+            &-center{
+                text-align: center !important;
+            }
+        }
+    }
+}
+
 @media all and (orientation: portrait) and (max-height:667px){
     .coming-soon{
         &-s1{
             @include set-bg(nth($img__coming-soon--v,1));
+        }
+    }
+    .about{
+        &-s1{
+            @include set-bg(nth($img__about-s1--v,1));
+            background-position: left top;
+        }
+        &-s2{
+            @include set-bg(nth($img__about-s2--v,1));
+            background-position: right top;
+        }
+    }
+    .food{
+        &-1{
+            @include set-bg(nth($img__food-1,1));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-2{
+            @include set-bg(nth($img__food-2,1));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-3{
+            @include set-bg(nth($img__food-3,1));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-4{
+            @include set-bg(nth($img__food-4,1));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-5{
+            @include set-bg(nth($img__food-5,1));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+    .index{
+        &-s1{
+            @include set-bg(nth($img__index-s1--v,1));
         }
     }
 }
@@ -59,6 +294,53 @@
             @include set-bg(nth($img__coming-soon--v,2));
         }
     }
+    .about{
+        &-s1{
+            @include set-bg(nth($img__about-s1--v,2));
+            background-position: right center;
+        }
+        &-s2{
+            @include set-bg(nth($img__about-s2--v,2));
+            background-position: left center;
+        }
+    }
+    .food{
+        &-1{
+            @include set-bg(nth($img__food-1,2));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-2{
+            @include set-bg(nth($img__food-2,2));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-3{
+            @include set-bg(nth($img__food-3,2));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-4{
+            @include set-bg(nth($img__food-4,2));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-5{
+            @include set-bg(nth($img__food-5,2));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+    .index{
+        &-s1{
+            @include set-bg(nth($img__index-s1--v,2));
+        }
+    }
 }
 
 @media all and (orientation: portrait) and (min-height:1367px){
@@ -66,5 +348,63 @@
         &-s1{
             @include set-bg(nth($img__coming-soon--v,3));
         }
+    }
+    .about{
+        &-s1{
+            @include set-bg(nth($img__about-s1--v,3));
+            background-position: left bottom;
+        }
+        &-s2{
+            @include set-bg(nth($img__about-s2--v,3));
+            background-position: left top;
+        }
+    }
+    .food{
+        &-1{
+            @include set-bg(nth($img__food-1,3));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-2{
+            @include set-bg(nth($img__food-2,3));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-3{
+            @include set-bg(nth($img__food-3,3));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-4{
+            @include set-bg(nth($img__food-4,3));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        &-5{
+            @include set-bg(nth($img__food-5,3));
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}
+
+/*ipad pro correction*/
+@media all and (orientation:portrait) and (min-height:1366px) and (min-width:1024px){
+    .ipad-pro-corr {
+        .offset-lg-7{
+            margin-left: auto !important;
+            margin-right: auto !important;
+            margin-top: 15% !important;
+        }
+        align-self: start !important;
+    }
+    .contact-box{
+        padding-top:60%;
+        padding-left:35%;
     }
 }
