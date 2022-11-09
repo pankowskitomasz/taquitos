@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "KaushanScript";
+  src: url("../fonts/KaushanScript-Regular.ttf");
+}
 /* line 2, ../sass/partials/_modules.scss */
 .basket-s1 {
   background-image: url("../img/basket.png");
@@ -7,76 +11,82 @@
   background-size: contain;
 }
 
-/* line 12, ../sass/partials/_modules.scss */
+/* line 11, ../sass/partials/_modules.scss */
 .bg-orange {
   background-color: #fe8100;
 }
 
-/* line 18, ../sass/partials/_modules.scss */
+/* line 17, ../sass/partials/_modules.scss */
 .border-orange {
   border-color: #fe8100 !important;
 }
 
-/* line 24, ../sass/partials/_modules.scss */
+/* line 23, ../sass/partials/_modules.scss */
 .coming-soon-s1 {
   background-image: url("../img/bg/coming_soon_sm_h.jpg");
   background-size: cover;
 }
 
-/* line 30, ../sass/partials/_modules.scss */
+/* line 29, ../sass/partials/_modules.scss */
 .minh-25vh {
   min-height: 25vh;
 }
-/* line 33, ../sass/partials/_modules.scss */
+/* line 32, ../sass/partials/_modules.scss */
 .minh-50vh {
   min-height: 50vh;
 }
-/* line 36, ../sass/partials/_modules.scss */
+/* line 35, ../sass/partials/_modules.scss */
 .minh-75vh {
   min-height: 75vh;
 }
-/* line 39, ../sass/partials/_modules.scss */
+/* line 38, ../sass/partials/_modules.scss */
 .minh-100vh {
   min-height: 100vh;
 }
 
-/* line 45, ../sass/partials/_modules.scss */
+/* line 44, ../sass/partials/_modules.scss */
 .text-orange {
   color: #fe8100 !important;
 }
-/* line 48, ../sass/partials/_modules.scss */
+/* line 47, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 3px #000;
 }
 
+/* line 51, ../sass/partials/_modules.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  font-family: "KaushanScript";
+  letter-spacing: 1px;
+}
+
 /*landscape*/
 @media all and (orientation: landscape) {
-  /* line 57, ../sass/partials/_modules.scss */
+  /* line 60, ../sass/partials/_modules.scss */
   .text-landscape-end {
     text-align: right !important;
   }
 }
 @media all and (orientation: landscape) and (max-width: 667px) {
-  /* line 66, ../sass/partials/_modules.scss */
+  /* line 69, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_sm_h.jpg");
     background-size: cover;
   }
 
-  /* line 71, ../sass/partials/_modules.scss */
+  /* line 74, ../sass/partials/_modules.scss */
   .about-s1 {
     background-image: url("../img/bg_about/about_s1_sm_h.jpg");
     background-size: cover;
     background-position: right bottom;
   }
-  /* line 75, ../sass/partials/_modules.scss */
+  /* line 78, ../sass/partials/_modules.scss */
   .about-s2 {
     background-image: url("../img/bg_about/about_s2_sm_h.jpg");
     background-size: cover;
     background-position: left top;
   }
 
-  /* line 81, ../sass/partials/_modules.scss */
+  /* line 84, ../sass/partials/_modules.scss */
   .food-1 {
     background-image: url("../img/food/food_1_sm.png");
     background-size: cover;
@@ -84,7 +94,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 87, ../sass/partials/_modules.scss */
+  /* line 90, ../sass/partials/_modules.scss */
   .food-2 {
     background-image: url("../img/food/food_2_sm.png");
     background-size: cover;
@@ -92,7 +102,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 93, ../sass/partials/_modules.scss */
+  /* line 96, ../sass/partials/_modules.scss */
   .food-3 {
     background-image: url("../img/food/food_3_sm.png");
     background-size: cover;
@@ -100,7 +110,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 99, ../sass/partials/_modules.scss */
+  /* line 102, ../sass/partials/_modules.scss */
   .food-4 {
     background-image: url("../img/food/food_4_sm.png");
     background-size: cover;
@@ -108,7 +118,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 105, ../sass/partials/_modules.scss */
+  /* line 108, ../sass/partials/_modules.scss */
   .food-5 {
     background-image: url("../img/food/food_5_sm.png");
     background-size: cover;
@@ -117,33 +127,33 @@
     background-size: contain;
   }
 
-  /* line 113, ../sass/partials/_modules.scss */
+  /* line 116, ../sass/partials/_modules.scss */
   .index-s1 {
     background-image: url("../img/bg_index/index_sm_h.jpg");
     background-size: cover;
   }
 }
 @media all and (orientation: landscape) and (min-width: 668px) {
-  /* line 121, ../sass/partials/_modules.scss */
+  /* line 124, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_lg_h.jpg");
     background-size: cover;
   }
 
-  /* line 126, ../sass/partials/_modules.scss */
+  /* line 129, ../sass/partials/_modules.scss */
   .about-s1 {
     background-image: url("../img/bg_about/about_s1_lg_h.jpg");
     background-size: cover;
     background-position: right bottom;
   }
-  /* line 130, ../sass/partials/_modules.scss */
+  /* line 133, ../sass/partials/_modules.scss */
   .about-s2 {
     background-image: url("../img/bg_about/about_s2_lg_h.jpg");
     background-size: cover;
     background-position: left top;
   }
 
-  /* line 136, ../sass/partials/_modules.scss */
+  /* line 139, ../sass/partials/_modules.scss */
   .food-1 {
     background-image: url("../img/food/food_1_lg.png");
     background-size: cover;
@@ -151,7 +161,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 142, ../sass/partials/_modules.scss */
+  /* line 145, ../sass/partials/_modules.scss */
   .food-2 {
     background-image: url("../img/food/food_2_lg.png");
     background-size: cover;
@@ -159,7 +169,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 148, ../sass/partials/_modules.scss */
+  /* line 151, ../sass/partials/_modules.scss */
   .food-3 {
     background-image: url("../img/food/food_3_lg.png");
     background-size: cover;
@@ -167,7 +177,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 154, ../sass/partials/_modules.scss */
+  /* line 157, ../sass/partials/_modules.scss */
   .food-4 {
     background-image: url("../img/food/food_4_lg.png");
     background-size: cover;
@@ -175,7 +185,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 160, ../sass/partials/_modules.scss */
+  /* line 163, ../sass/partials/_modules.scss */
   .food-5 {
     background-image: url("../img/food/food_5_lg.png");
     background-size: cover;
@@ -184,7 +194,7 @@
     background-size: contain;
   }
 
-  /* line 168, ../sass/partials/_modules.scss */
+  /* line 171, ../sass/partials/_modules.scss */
   .index-s1 {
     background-image: url("../img/bg_index/index_lg_h.jpg");
     background-size: cover;
@@ -192,26 +202,26 @@
   }
 }
 @media all and (orientation: landscape) and (min-width: 1367px) {
-  /* line 177, ../sass/partials/_modules.scss */
+  /* line 180, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_xl_h.jpg");
     background-size: cover;
   }
 
-  /* line 182, ../sass/partials/_modules.scss */
+  /* line 185, ../sass/partials/_modules.scss */
   .about-s1 {
     background-image: url("../img/bg_about/about_s1_xl_h.jpg");
     background-size: cover;
     background-position: right bottom;
   }
-  /* line 186, ../sass/partials/_modules.scss */
+  /* line 189, ../sass/partials/_modules.scss */
   .about-s2 {
     background-image: url("../img/bg_about/about_s2_xl_h.jpg");
     background-size: cover;
     background-position: left top;
   }
 
-  /* line 192, ../sass/partials/_modules.scss */
+  /* line 195, ../sass/partials/_modules.scss */
   .food-1 {
     background-image: url("../img/food/food_1_xl.png");
     background-size: cover;
@@ -219,7 +229,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 198, ../sass/partials/_modules.scss */
+  /* line 201, ../sass/partials/_modules.scss */
   .food-2 {
     background-image: url("../img/food/food_2_xl.png");
     background-size: cover;
@@ -227,7 +237,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 204, ../sass/partials/_modules.scss */
+  /* line 207, ../sass/partials/_modules.scss */
   .food-3 {
     background-image: url("../img/food/food_3_xl.png");
     background-size: cover;
@@ -235,7 +245,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 210, ../sass/partials/_modules.scss */
+  /* line 213, ../sass/partials/_modules.scss */
   .food-4 {
     background-image: url("../img/food/food_4_xl.png");
     background-size: cover;
@@ -243,7 +253,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 216, ../sass/partials/_modules.scss */
+  /* line 219, ../sass/partials/_modules.scss */
   .food-5 {
     background-image: url("../img/food/food_5_xl.png");
     background-size: cover;
@@ -254,32 +264,32 @@
 }
 /*portait*/
 @media all and (orientation: portrait) {
-  /* line 229, ../sass/partials/_modules.scss */
+  /* line 232, ../sass/partials/_modules.scss */
   .text-portrait-center {
     text-align: center !important;
   }
 }
 @media all and (orientation: portrait) and (max-height: 667px) {
-  /* line 238, ../sass/partials/_modules.scss */
+  /* line 241, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_sm_v.jpg");
     background-size: cover;
   }
 
-  /* line 243, ../sass/partials/_modules.scss */
+  /* line 246, ../sass/partials/_modules.scss */
   .about-s1 {
     background-image: url("../img/bg_about/about_s1_sm_v.jpg");
     background-size: cover;
     background-position: left top;
   }
-  /* line 247, ../sass/partials/_modules.scss */
+  /* line 250, ../sass/partials/_modules.scss */
   .about-s2 {
     background-image: url("../img/bg_about/about_s2_sm_v.jpg");
     background-size: cover;
     background-position: right top;
   }
 
-  /* line 253, ../sass/partials/_modules.scss */
+  /* line 256, ../sass/partials/_modules.scss */
   .food-1 {
     background-image: url("../img/food/food_1_sm.png");
     background-size: cover;
@@ -287,7 +297,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 259, ../sass/partials/_modules.scss */
+  /* line 262, ../sass/partials/_modules.scss */
   .food-2 {
     background-image: url("../img/food/food_2_sm.png");
     background-size: cover;
@@ -295,7 +305,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 265, ../sass/partials/_modules.scss */
+  /* line 268, ../sass/partials/_modules.scss */
   .food-3 {
     background-image: url("../img/food/food_3_sm.png");
     background-size: cover;
@@ -303,7 +313,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 271, ../sass/partials/_modules.scss */
+  /* line 274, ../sass/partials/_modules.scss */
   .food-4 {
     background-image: url("../img/food/food_4_sm.png");
     background-size: cover;
@@ -311,7 +321,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 277, ../sass/partials/_modules.scss */
+  /* line 280, ../sass/partials/_modules.scss */
   .food-5 {
     background-image: url("../img/food/food_5_sm.png");
     background-size: cover;
@@ -320,33 +330,33 @@
     background-size: contain;
   }
 
-  /* line 285, ../sass/partials/_modules.scss */
+  /* line 288, ../sass/partials/_modules.scss */
   .index-s1 {
     background-image: url("../img/bg_index/index_sm_v.jpg");
     background-size: cover;
   }
 }
 @media all and (orientation: portrait) and (min-height: 668px) {
-  /* line 293, ../sass/partials/_modules.scss */
+  /* line 296, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_lg_v.jpg");
     background-size: cover;
   }
 
-  /* line 298, ../sass/partials/_modules.scss */
+  /* line 301, ../sass/partials/_modules.scss */
   .about-s1 {
     background-image: url("../img/bg_about/about_s1_lg_v.jpg");
     background-size: cover;
     background-position: right center;
   }
-  /* line 302, ../sass/partials/_modules.scss */
+  /* line 305, ../sass/partials/_modules.scss */
   .about-s2 {
     background-image: url("../img/bg_about/about_s2_lg_v.jpg");
     background-size: cover;
     background-position: left center;
   }
 
-  /* line 308, ../sass/partials/_modules.scss */
+  /* line 311, ../sass/partials/_modules.scss */
   .food-1 {
     background-image: url("../img/food/food_1_lg.png");
     background-size: cover;
@@ -354,7 +364,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 314, ../sass/partials/_modules.scss */
+  /* line 317, ../sass/partials/_modules.scss */
   .food-2 {
     background-image: url("../img/food/food_2_lg.png");
     background-size: cover;
@@ -362,7 +372,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 320, ../sass/partials/_modules.scss */
+  /* line 323, ../sass/partials/_modules.scss */
   .food-3 {
     background-image: url("../img/food/food_3_lg.png");
     background-size: cover;
@@ -370,7 +380,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 326, ../sass/partials/_modules.scss */
+  /* line 329, ../sass/partials/_modules.scss */
   .food-4 {
     background-image: url("../img/food/food_4_lg.png");
     background-size: cover;
@@ -378,7 +388,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 332, ../sass/partials/_modules.scss */
+  /* line 335, ../sass/partials/_modules.scss */
   .food-5 {
     background-image: url("../img/food/food_5_lg.png");
     background-size: cover;
@@ -387,33 +397,33 @@
     background-size: contain;
   }
 
-  /* line 340, ../sass/partials/_modules.scss */
+  /* line 343, ../sass/partials/_modules.scss */
   .index-s1 {
     background-image: url("../img/bg_index/index_lg_v.jpg");
     background-size: cover;
   }
 }
 @media all and (orientation: portrait) and (min-height: 1367px) {
-  /* line 348, ../sass/partials/_modules.scss */
+  /* line 351, ../sass/partials/_modules.scss */
   .coming-soon-s1 {
     background-image: url("../img/bg/coming_soon_xl_v.jpg");
     background-size: cover;
   }
 
-  /* line 353, ../sass/partials/_modules.scss */
+  /* line 356, ../sass/partials/_modules.scss */
   .about-s1 {
     background-image: url("../img/bg_about/about_s1_xl_v.jpg");
     background-size: cover;
     background-position: left bottom;
   }
-  /* line 357, ../sass/partials/_modules.scss */
+  /* line 360, ../sass/partials/_modules.scss */
   .about-s2 {
     background-image: url("../img/bg_about/about_s2_xl_v.jpg");
     background-size: cover;
     background-position: left top;
   }
 
-  /* line 363, ../sass/partials/_modules.scss */
+  /* line 366, ../sass/partials/_modules.scss */
   .food-1 {
     background-image: url("../img/food/food_1_xl.png");
     background-size: cover;
@@ -421,7 +431,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 369, ../sass/partials/_modules.scss */
+  /* line 372, ../sass/partials/_modules.scss */
   .food-2 {
     background-image: url("../img/food/food_2_xl.png");
     background-size: cover;
@@ -429,7 +439,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 375, ../sass/partials/_modules.scss */
+  /* line 378, ../sass/partials/_modules.scss */
   .food-3 {
     background-image: url("../img/food/food_3_xl.png");
     background-size: cover;
@@ -437,7 +447,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 381, ../sass/partials/_modules.scss */
+  /* line 384, ../sass/partials/_modules.scss */
   .food-4 {
     background-image: url("../img/food/food_4_xl.png");
     background-size: cover;
@@ -445,7 +455,7 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  /* line 387, ../sass/partials/_modules.scss */
+  /* line 390, ../sass/partials/_modules.scss */
   .food-5 {
     background-image: url("../img/food/food_5_xl.png");
     background-size: cover;
@@ -456,18 +466,18 @@
 }
 /*ipad pro correction*/
 @media all and (orientation: portrait) and (min-height: 1366px) and (min-width: 1024px) {
-  /* line 398, ../sass/partials/_modules.scss */
+  /* line 401, ../sass/partials/_modules.scss */
   .ipad-pro-corr {
     align-self: start !important;
   }
-  /* line 399, ../sass/partials/_modules.scss */
+  /* line 402, ../sass/partials/_modules.scss */
   .ipad-pro-corr .offset-lg-7 {
     margin-left: auto !important;
     margin-right: auto !important;
     margin-top: 15% !important;
   }
 
-  /* line 406, ../sass/partials/_modules.scss */
+  /* line 409, ../sass/partials/_modules.scss */
   .contact-box {
     padding-top: 60%;
     padding-left: 35%;
